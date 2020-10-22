@@ -67,7 +67,7 @@ header .burger div {
 .hero .hero__background {
     position: absolute;
     width: 100vw;
-    height: 70vw;
+    height: 30vh;
     background-color: rgb(40, 175, 253);
     border-bottom-left-radius: 50% 20%;
     border-bottom-right-radius: 50% 20%;
@@ -126,4 +126,23 @@ header .burger div {
 .loushiGang h2 {
     text-align: center;
     margin-bottom: 50px;
+}
+
+
+@media (min-width: 1025px) {
+    .hero {
+        height: 500px;
+    }
+    .hero .hero__background {
+        
+        border-bottom-left-radius: 50% 10%;
+        border-bottom-right-radius: 50% 10%;
+    }
+    .loushiGang .widgets{
+        flex-flow: row wrap;
+    }
+    .loushiGang .widget {
+        width: 300px;
+    }
+    
 }
