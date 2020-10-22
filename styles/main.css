@@ -77,6 +77,9 @@ header .burger div {
     color: rgb(10, 156, 240);
     text-shadow: 5px 2px 20px #fff;
 }
+.hero img {
+    width: 150px;
+}
 .hero__desc {
     margin-top: 20px;
     text-align: center;
@@ -150,6 +153,9 @@ header .burger div {
     .hero h2 {
       color: rgb(10, 156, 240);
       text-shadow: 5px 5px 40px #fff;  
+    }
+    .hero img{
+        width: 200px;
     }
     .loushiGang {
         height: 380px;
