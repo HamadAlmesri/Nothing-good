@@ -10,8 +10,8 @@
 
 
 
-body,
-html {
+html,
+body {
     width: 100%;
     height: 100%;
     background-color: #f2f2f2;
@@ -126,23 +126,55 @@ header .burger div {
 .loushiGang h2 {
     text-align: center;
     margin-bottom: 50px;
+    color:#fff;
+    text-shadow: 5px 2px 5px rgb(0, 56, 88);
+}
+.loushiGang .widget__des {
+    color: #fff;
+    padding: 8px;
+    text-shadow: 5px 2px 5px rgb(0, 56, 88);
+    margin-bottom: 20px;
 }
 
 
 @media (min-width: 1025px) {
     .hero {
-        height: 500px;
+        transition: 0.3s all ease-in-out;
     }
     .hero .hero__background {
-        
-        border-bottom-left-radius: 50% 10%;
-        border-bottom-right-radius: 50% 10%;
+        width: 100%;
+        height: 2vh;
+        border-bottom-left-radius: 50% 15%;
+        border-bottom-right-radius: 50% 15%;
+    }
+    .hero h2 {
+      color: rgb(10, 156, 240);
+      text-shadow: 5px 5px 40px #fff;  
+    }
+    .loushiGang {
+        height: 380px;
+    }
+    .loushiGang h2 {
+        font-size: 30px;
+        transition: 0.3s all ease-in-out;
+    }
+    .loushiGang img {
+        width: 100%;
     }
     .loushiGang .widgets{
+        width: 100%;
         flex-flow: row wrap;
+        justify-content: space-evenly;
     }
     .loushiGang .widget {
-        width: 300px;
+        width: 250px;
+        transition: 0.3s all ease-in-out;
     }
-    
+    .loushiGang:hover .widget {
+        width: 270px;
+    }
+    .loushiGang:hover h2 {
+        font-size: 35px;
+        transition: 0.3s all ease-in-out;
+    }
 }
